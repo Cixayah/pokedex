@@ -9,11 +9,14 @@
 body {
     text-align: center;
     background: linear-gradient(to bottom, #6ab7f5, #fff);
-    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 main {
     display: inline-block;
-    margin-top: 2%;
     padding: 15px;
     position: relative;
 }
